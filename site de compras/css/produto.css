@@ -1,0 +1,154 @@
+body{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+
+header{
+    background-color: rgb(240, 240, 240);
+    
+}
+
+.menu{
+    border-top: 6px solid rgb(40, 190, 190);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+  
+
+.Roupa{
+    font-size: 70px;
+    margin-left: 310px;
+    margin-right: 310px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Email{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Contato{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+
+.titulo-blusa{
+    border-top: #e4e2e2 solid 1px;
+    border-bottom: #e4e2e2 solid 1px;
+    height: 120px;
+    font-size: 37px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu-blusa-foto{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    padding-left: 270px;
+    padding-right: 270px;
+    justify-content: space-between;
+}
+
+.titulo-blusa2 h1{
+    padding-left: 15px;
+}
+
+.titulo-blusa1 h1{
+    padding-left: 15px;
+}
+
+.titulo-blusa3 h1{
+    padding-left: 15px;
+}
+
+button{
+    margin-left: 40px;
+}
+
+
+.BUTTON_IHB {
+    background: rgb(40, 190, 190);
+     -webkit-border-radius: 14px;
+   -moz-border-radius: 14px;
+   border-radius: 14px;
+    color: #FFFFFF;
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    border: solid #337FED 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+ 
+.BUTTON_IHB:hover{
+    border: solid rgb(32, 95, 213) 1px;
+    background: rgb(27, 78, 172);
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    text-decoration: none;
+ }
+
+
+ 
+
+ button {
+    font-size: 1.25rem;
+    background-color: royalblue;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+ }
+ button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+ }
+
+ button i {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+ }
+
+ button:hover .wrapper{
+    animation: fly 0.6s ease-in-out infinite alternate;
+ }
+button:hover i{
+    transform: translateX(1.2rem) rotate(45deg) scale(1.1);
+}
+button:hover span{
+    transform: translateX(5em);
+}
+button:active {
+    transform: scale(0.95);
+}
+@keyframes fly{
+    from {transform: translateY(0.1em);}
+    to {transform: translateY(-0.1em);}
+}
